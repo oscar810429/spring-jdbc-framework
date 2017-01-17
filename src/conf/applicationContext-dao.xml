@@ -14,49 +14,11 @@
 	</bean>
 	
 	<!-- DAOs -->
-	<bean id="userDao" class="net.dbaeye.core.dao.jdbc.UserDaoJdbc">
+	
+    <bean id="userDao" class="net.dbaeye.core.dao.jdbc.UserDaoJdbc">
 		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
 	</bean>
 	
-	<bean id="itemsDao" class="net.dbaeye.core.dao.jdbc.OkInsertItemsDaoImpl">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
-	
-	<bean id="itemDao" class="net.dbaeye.core.dao.jdbc.ItemDaoImpl">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
-	
-	<bean id="tagDao" class="net.dbaeye.core.dao.jdbc.TagDaoImpl">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
-	
-	<bean id="contentDao" class="net.dbaeye.core.dao.jdbc.ContentDaoImpl">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
-	
-	<bean id="channelDao" class="net.dbaeye.core.dao.jdbc.channelDaoImpl">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
-	
-	<bean id="tagGroupDao" class="net.dbaeye.core.dao.jdbc.TagGroupDaoImpl">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
-	
-	<bean id="memberDao" class="net.dbaeye.core.dao.jdbc.MemberDaoImpl">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
-	
-	<bean id="memberStatisticDao" class="net.dbaeye.core.dao.jdbc.MemberStatisticDaoImpl">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
-	
-	<bean id="picUploadDao" class="net.dbaeye.core.dao.jdbc.PicUploadDaoImpl">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
-	
-	<bean id="postDao" class="net.dbaeye.core.dao.jdbc.PostDaoJdbc">
-		<property name="classicJdbcTemplate"><ref local="classicJdbcTemplate"/></property>
-	</bean>
 	
 	
 </beans>

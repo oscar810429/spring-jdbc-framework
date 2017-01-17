@@ -5,5 +5,15 @@
 		xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
 	<bean id="transactionManager" class="net.dbaeye.transaction.BaseTransactionManager"></bean>
+	
+	<bean id="txAspect" class="net.dbaeye.core.aspectj.TransactionAspect" factory-method="aspectOf">
+    	<property name="transactionManager"><ref local="transactionManager"/></property>
+    </bean>
+	
+	 <!--########################## userManager -->
+        
+    <bean id="userManager" class="net.dbaeye.core.service.impl.UserManagerImpl">
+		<property name="userDao"><ref bean="userDao"/></property>			
+	</bean>
 
 </beans>

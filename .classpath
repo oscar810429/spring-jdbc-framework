@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src/conf"/>
 	<classpathentry kind="src" path="src/core/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/JAVA SE 6"/>
 	<classpathentry kind="lib" path="lib/spring-2.5.5/spring.jar"/>
@@ -18,5 +19,9 @@
 	<classpathentry kind="lib" path="lib/aspectJ-5/aspectjweaver.jar"/>
 	<classpathentry kind="lib" path="lib/servletapi-2.3/javaee.jar"/>
 	<classpathentry kind="lib" path="lib/jakarta-log4j-1.2.9/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="lib/jakarta-commons/commons-pool.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-1.4.3/slf4j-log4j12-1.4.3.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-3.1.8/mysql-connector-java-3.1.8-bin.jar"/>
+	<classpathentry kind="lib" path="lib/jakarta-commons/commons-collections.jar"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>
