@@ -2,8 +2,8 @@ package net.dbaeye.core.service;
 
 import java.util.List;
 
-import net.dbaeye.core.model.User;
 import net.dbaeye.core.search.Result;
+import net.dbaeye.test.model.User;
 
 public interface UserManager {
 	

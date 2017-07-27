@@ -3,7 +3,7 @@
  * 
  * Copyright 2012 Net365. All rights reserved.
  */
-package net.dbaeye.core.aspectj;
+package net.dbaeye.test.aspectj;
 
 import net.dbaeye.dao.AnnotationDataAccessAttributeSource;
 import net.dbaeye.dao.AbstractLazyLoadingAspect;

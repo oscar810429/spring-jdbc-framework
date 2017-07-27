@@ -1,4 +1,4 @@
-package net.dbaeye.core.service.impl;
+package net.dbaeye.test.service;
 
 import java.util.List;
 
@@ -7,10 +7,10 @@ import org.springframework.util.Assert;
 
 import net.dbaeye.core.service.UserManager;
 
-import net.dbaeye.core.dao.UserDao;
 
-import net.dbaeye.core.model.User;
 import net.dbaeye.core.search.Result;
+import net.dbaeye.test.dao.UserDao;
+import net.dbaeye.test.model.User;
 import net.dbaeye.transaction.Transactional;
 
 public class UserManagerImpl implements UserManager, InitializingBean {

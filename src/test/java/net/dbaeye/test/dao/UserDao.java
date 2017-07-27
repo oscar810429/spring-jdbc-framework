@@ -1,10 +1,10 @@
-package net.dbaeye.core.dao;
+package net.dbaeye.test.dao;
 
 import java.util.List;
 
 import net.dbaeye.core.dao.Dao;
-import net.dbaeye.core.model.User;
 import net.dbaeye.core.search.Result;
+import net.dbaeye.test.model.User;
 
 public interface UserDao extends Dao {
 	

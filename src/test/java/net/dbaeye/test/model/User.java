@@ -1,4 +1,6 @@
-package net.dbaeye.core.model;
+package net.dbaeye.test.model;
+
+import net.dbaeye.core.model.BaseObject;
 
 public class User extends BaseObject{
 	

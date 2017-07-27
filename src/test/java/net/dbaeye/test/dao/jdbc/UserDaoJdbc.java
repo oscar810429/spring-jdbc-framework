@@ -1,4 +1,4 @@
-package net.dbaeye.core.dao.jdbc;
+package net.dbaeye.test.dao.jdbc;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -9,11 +9,11 @@ import net.dbaeye.dao.DataAccessMethod;
 
 
 
-import net.dbaeye.core.dao.UserDao;
-import net.dbaeye.core.model.User;
 import net.dbaeye.core.search.Result;
 import net.dbaeye.dao.support.BaseDaoSupport;
 import net.dbaeye.dao.support.sql.Table;
+import net.dbaeye.test.dao.UserDao;
+import net.dbaeye.test.model.User;
 
 public class UserDaoJdbc extends BaseDaoSupport implements UserDao{
 	
