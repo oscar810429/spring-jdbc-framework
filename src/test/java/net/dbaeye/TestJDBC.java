@@ -4,6 +4,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import net.dbaeye.core.model.*;
 import net.dbaeye.core.search.Result;
 import net.dbaeye.core.service.UserManager;
+import net.dbaeye.test.model.User;
 
 public class TestJDBC {
 	
