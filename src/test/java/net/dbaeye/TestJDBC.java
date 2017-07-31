@@ -3,7 +3,8 @@ package net.dbaeye;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import net.dbaeye.core.model.*;
 import net.dbaeye.core.search.Result;
-import net.dbaeye.core.service.UserManager;
+import net.dbaeye.test.model.User;
+import net.dbaeye.test.service.UserManager;
 
 public class TestJDBC {
 	
